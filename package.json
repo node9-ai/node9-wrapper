@@ -1,0 +1,33 @@
+{
+  "name": "node9-ai",
+  "version": "1.11.3",
+  "description": "Security layer for AI coding agents — intercepts dangerous tool calls before they execute",
+  "keywords": [
+    "ai",
+    "security",
+    "claude",
+    "claude-code",
+    "mcp",
+    "agent",
+    "guardrails"
+  ],
+  "homepage": "https://node9.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/node9-ai/node9-proxy"
+  },
+  "license": "MIT",
+  "scripts": {
+    "prepublishOnly": "cp ../node9-proxy/README.md ./README.md"
+  },
+  "bin": {
+    "node9": "bin/node9.js"
+  },
+  "dependencies": {
+    "@node9/proxy": ">=1.11.3"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  }
+}
