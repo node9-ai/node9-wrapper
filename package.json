@@ -16,7 +16,7 @@
     "type": "git",
     "url": "https://github.com/node9-ai/node9-proxy"
   },
-  "license": "MIT",
+  "license": "Apache-2.0",
   "scripts": {
     "prepublishOnly": "cp ../node9-proxy/README.md ./README.md"
   },
