@@ -31,6 +31,6 @@ if (!proxyBin) {
 
 const result = spawnSync(process.execPath, [proxyBin, ...process.argv.slice(2)], {
   stdio: 'inherit',
-  env: process.env,
+  env: { ...process.env, NODE9_WRAPPER: '1' },
 });
 process.exit(result.status ?? 0);
