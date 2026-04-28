@@ -1,6 +1,6 @@
 {
   "name": "node9-ai",
-  "version": "1.14.1",
+  "version": "1.15.0",
   "description": "Security layer for AI coding agents — intercepts dangerous tool calls before they execute",
   "keywords": [
     "ai",
