@@ -24,9 +24,7 @@
     "node9": "bin/node9.js",
     "node9-ai": "bin/node9.js"
   },
-  "dependencies": {
-    "@node9/proxy": "1.18.0"
-  },
+  "dependencies": {},
   "type": "module",
   "engines": {
     "node": ">=18"
