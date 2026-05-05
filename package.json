@@ -1,6 +1,6 @@
 {
   "name": "node9-ai",
-  "version": "1.18.0",
+  "version": "1.18.1",
   "description": "Security layer for AI coding agents — intercepts dangerous tool calls before they execute",
   "keywords": [
     "ai",
@@ -25,7 +25,7 @@
     "node9-ai": "bin/node9.js"
   },
   "dependencies": {
-    "@node9/proxy": ">=1.11.3"
+    "@node9/proxy": "1.18.0"
   },
   "type": "module",
   "engines": {
