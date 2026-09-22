@@ -1,6 +1,6 @@
 {
   "name": "node9-ai",
-  "version": "2.19.2",
+  "version": "2.20.0",
   "description": "IAM for your AI agents. Set what Claude Code, Codex, Gemini, Cursor and any MCP server are allowed to do, review risky actions before they run, and keep every action on the record.",
   "keywords": [
     "ai-security",
@@ -44,7 +44,7 @@
     "node9-ai": "bin/node9.js"
   },
   "dependencies": {
-    "@node9/proxy": "2.19.2"
+    "@node9/proxy": "2.20.0"
   },
   "type": "module",
   "engines": {
