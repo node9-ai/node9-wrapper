@@ -1,6 +1,6 @@
 {
   "name": "node9-ai",
-  "version": "2.27.1",
+  "version": "2.28.0",
   "mcpName": "io.github.node9-ai/node9",
   "description": "Access control for AI agents. Set what Claude Code, Codex, Gemini, Cursor and any MCP server are allowed to do, review risky actions before they run, and keep every action on the record.",
   "keywords": [
@@ -46,7 +46,7 @@
     "node9-ai": "bin/node9.js"
   },
   "dependencies": {
-    "@node9/proxy": "2.27.1"
+    "@node9/proxy": "2.28.0"
   },
   "type": "module",
   "engines": {
